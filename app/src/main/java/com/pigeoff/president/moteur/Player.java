@@ -12,6 +12,7 @@ public class Player {
 
     public int rang = 0;
     public int role = 0;
+    public boolean automatic = false;
     public boolean aLaMain = false;
     public boolean couche = false;
     public Main main = new Main();
@@ -24,7 +25,7 @@ public class Player {
 
     // PUBLIC UTILE
 
-    public Player(int rang) {
+    public Player(boolean automatic, int rang) {
         this.rang = rang;
     }
 
